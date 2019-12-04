@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Photography</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="css/mainPage.css">
+    <link rel="stylesheet" href="css/gallery.css">
+</head>
+<body>
+<div class="container" id="container">
+    <!-- Logo header -->
+    <header id="header">
+        <img id="mainLogo" src="../img/logo.png">
+        <!-- Navigation bar -->
+        <nav id="navBar">
+            <ul id="navList">
+                <li><i id="home" class="fa fa-home fa-fw"></i></li>
+                <li class="listItem" id="people">People</li>
+                <li class="listItem" id="nature">Nature</li>
+                <li class="listItem" id="events">Events</li>
+                <li class="listItem" id="aboutMe">About me</li>
+            </ul>
+        </nav>
+    </header>
+    <div id="aboutMeModal">
+        <div id="modalContent">
+            <div id="modalTitle"></div>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+    <div class="showcase" id="showcase"></div>
+    <footer id="footer">
+        <span>&copy</span>
+        <span>Tudor Alexandru</span>
+    </footer>
+</div>
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+/*gallery section*/
+.galleryContainer{
+    width: 100%;
+}
+.mainPhoto{
+    display: flex;
+    margin-top: 10px;
+}
+.mainItem{
+    width: 50%;
+    margin: auto;
+    background-size: cover;
+    border-radius: 30px;
+    border: 2px solid grey;
+}
+.photoSlider{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    scroll-snap-type: both proximity;
+    width: 100%;
+    margin: 15px;
+    border: 2px solid grey;
+    border-radius: 15px;
+}
+.sliderItem{
+    height: 200px;
+    padding: 15px;
+    scroll-snap-align: start;
+}
+.images{
+    display: flex;
+    align-items: center;
+}
+.images > i {
+    color: lightgrey;
+}
+.images>i:hover{
+    cursor: pointer;
+    color: black;
+}
